@@ -1,7 +1,7 @@
 {
-  "name": "promise-queue",
+  "name": "promiseQueue",
   "config": {
-    "namespace": "promise-queue"
+    "namespace": "promiseQueue"
   },
   "version": "1.0.0",
   "description": "Provide a queue for series execution of promises",
