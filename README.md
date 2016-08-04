@@ -4,9 +4,9 @@ Inspired by [Promise Series](https://github.com/terinjokes/promise-series)
 
 ```js
 const queue = new PromiseQueue();
-queue.push(promiseForFile);
-queue.push(promiseForSearch);
-queue.push(promiseForWrite);
+queue.push(promise1);
+queue.push(promise2);
+queue.push(promise3);
 
 queue.resolve().then((results) => {
     console.log(results);
