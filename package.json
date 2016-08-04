@@ -3,7 +3,7 @@
   "config": {
     "namespace": "promise-queue"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provide a queue for series execution of promises",
   "author": "Martin Matzanke <https://github.com/mmatzanke>",
   "main": "src/index.js",
