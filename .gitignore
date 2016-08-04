@@ -1,0 +1,6 @@
+dist/*
+release
+./coverage
+npm-debug.log
+node_modules
+browser-package.json

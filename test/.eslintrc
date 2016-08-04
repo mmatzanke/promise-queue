@@ -1,0 +1,13 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "sinon": true,
+    "expect": true
+  },
+  "rules": {
+    "max-len": [2, 150, 4],
+    "arrow-body-style": 0
+  }
+}
