@@ -17,7 +17,8 @@
     "test-coverage": "babel-node node_modules/isparta/bin/isparta cover _mocha -- --opts test/mocha.opts",
     "lint": "eslint src test",
     "build": "NODE_ENV=production browserify src/index.js -t babelify --insert-global-vars global -s $npm_package_config_namespace > dist/$npm_package_config_namespace.max.js && uglifyjs dist/$npm_package_config_namespace.max.js -cm > dist/$npm_package_config_namespace.js",
-    "test-all": "npm test && npm run lint && npm run build"
+    "test-all": "npm test && npm run lint && npm run build",
+    "postinstall": "npm run build"
   },
   "private": false,
   "keywords": [
