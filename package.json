@@ -18,7 +18,7 @@
     "lint": "eslint src test",
     "build": "NODE_ENV=production browserify src/index.js -t babelify --insert-global-vars global -s $npm_package_config_namespace > dist/$npm_package_config_namespace.max.js && uglifyjs dist/$npm_package_config_namespace.max.js -cm > dist/$npm_package_config_namespace.js",
     "test-all": "npm test && npm run lint && npm run build",
-    "preversion": "NODE_ENV=production browserify src/index.js -t babelify --insert-global-vars global -s $npm_package_config_namespace > index.js",
+    "preversion": "NODE_ENV=production browserify src/index.js -t babelify --insert-global-vars global -s $npm_package_config_namespace > $npm_package_config_namespac.js",
     "postversion": "git push && git push --tags && npm publish"
   },
   "private": false,
@@ -31,6 +31,7 @@
     "type": "git",
     "url": "git://github.com/mmatzanke/promise-queue"
   },
+  "main": "$npm_package_config_namespac.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mmatzanke/promise-queue/issues"
