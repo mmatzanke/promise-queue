@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "description": "Provide a queue for series execution of promises",
   "author": "Martin Matzanke <https://github.com/mmatzanke>",
-  "main": "src/index.js",
+  "main": "$npm_package_config_namespace.js",
   "directories": {
     "doc": "doc"
   },
@@ -31,7 +31,6 @@
     "type": "git",
     "url": "git://github.com/mmatzanke/promise-queue"
   },
-  "main": "$npm_package_config_namespace.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mmatzanke/promise-queue/issues"
