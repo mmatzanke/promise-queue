@@ -1,7 +1,7 @@
 {
   "name": "promise-resolver-queue",
   "config": {
-    "namespace": "promise-queue"
+    "namespace": "promise-resolver-queue"
   },
   "version": "1.0.0",
   "description": "Provide a queue for series execution of promises",
